@@ -86,11 +86,6 @@ h1 span{
     margin: 30px 0px;
     border-radius: 5px;
 }
-.images
-{
-
-}
-
 @keyframes animate{
     0%{
         opacity: 0%;
@@ -103,8 +98,6 @@ h1 span{
         filter: blur(0px);
 }
 }
-
-
 header
 {
     position: fixed;
@@ -152,7 +145,6 @@ header span
 }
 .navigation a:hover::after{
     transform: scaleX(1);
-
 }
 .navigation .loginpop{
     width: 130px;
@@ -165,100 +157,4 @@ header span
     font-weight: 500;
     margin-left: 40px;
     transform: .5s;
-}
-
-
-footer
-{
-    margin-top: auto;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.footercontainer
-{
-    
-    padding: 70px 30px 20px;
-}
-.socialicons
-{
-    display: flex;
-    margin-left: 625px;
-}
-.socialicons a
-{
-    text-decoration: none;
-    padding: 10px;
-    background-color: null;
-    backdrop-filter: blur(10px);
-    margin: 10px;
-    border-radius: 50;
-}
-.socialicons a i
-{
-    font-size: 2em;
-    color: black;
-    opacity: 1;
-}
-.socialicons a:hover
-{
-    background-color: #111;
-    transition: 0.5s;
-}
-.socialicons a:hover i
-{
-    color: rgb(184, 49, 4);
-    transform: 0.5s;
-}
-.footernav
-{
-    margin: 30px 0px;
-}
-.footernav ul
-{
-    display: flex;
-    margin-left: 625px;
-    list-style-type: none;
-}
-.footernav ul li a
-{
-    
-    color: white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-    transition: 0.5s;
-}
-.footernav ul li a:hover
-{
-    opacity: 1;
-}
-.footerbottom
-{
-    
-    background-color: #000;
-    padding: 20px;
-    text-align: center;
-}
-.footerbottom p
-{
-    color:white;
-}
-.designer
-{
-    opacity: 0.7;
-    text-transform: 1px;
-
-}
-@media(max-width: 700px)
-{
-    .footernav ul{
-        flex-direction: column;
-    }
-    .footernav ul li {
-        width: 100%;
-        text-align: center;
-        margin: 10px;
-    }
 }
